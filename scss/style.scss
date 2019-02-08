@@ -1,0 +1,24 @@
+@import "base/_reset";
+@import "base/_fonts";
+@import "components/slick";
+@import "components/slick-theme";
+@import "layout/_header";
+@import "layout/_main-offer";
+@import "layout/_main-info";
+@import "layout/_main-portfolio";
+@import "layout/_footer";
+
+@import url(../fonts/icomoon/style.css);
+// @import "components/slick";
+// @import "components/slick-theme";
+
+
+.main-wrapper {
+	min-width: $min-width;
+	font-family: $base-font-family;
+}
+
+.b-wrap {
+	max-width: $max-width;
+	margin: 0 auto;	
+}

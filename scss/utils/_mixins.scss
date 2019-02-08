@@ -1,0 +1,98 @@
+// Center-align a block level element
+// ----------------------------------
+@mixin center-block($width:300px) {
+    display: block;
+    width: $width;
+    max-width: 100%;
+    margin: 0 auto;
+}
+// Inline block
+@mixin in-t() {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@mixin in-m() {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@mixin in-b() {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+@mixin icomoon($content) {
+    font-family: 'icomoon';
+    content: $content;
+    display: inline-block;
+}
+
+@mixin w-center {
+    width: 100%;
+    margin: 0px auto;
+}
+
+@mixin placeholder-color ($color) {
+    &::-webkit-input-placeholder {color: $color;}
+    &::-moz-placeholder          {color: $color;}/* Firefox 19+ */
+    &:-moz-placeholder           {color: $color;}/* Firefox 18- */
+    &:-ms-input-placeholder      {color: $color;}
+}
+
+@mixin placeholder-text-transform () {
+    &::-webkit-input-placeholder {text-transform: uppercase;}
+    &::-moz-placeholder          {text-transform: uppercase;}/* Firefox 19+ */
+    &:-moz-placeholder           {text-transform: uppercase;}/* Firefox 18- */
+    &:-ms-input-placeholder      {text-transform: uppercase;}
+}
+
+@mixin placeholder-letter-spacing ($letter-spacing) {
+    &::-webkit-input-placeholder {letter-spacing: $letter-spacing;}
+    &::-moz-placeholder          {letter-spacing: $letter-spacing;}/* Firefox 19+ */
+    &:-moz-placeholder           {letter-spacing: $letter-spacing;}/* Firefox 18- */
+    &:-ms-input-placeholder      {letter-spacing: $letter-spacing;}
+}
+
+
+
+@mixin transition($default-transition) {
+  -webkit-transition: $default-transition;
+     -moz-transition: $default-transition;
+      -ms-transition: $default-transition;
+		-o-transition: $default-transition;
+           transition: $default-transition;
+}
+
+@mixin radius($border-radius) {
+  -webkit-border-radius: $border-radius;
+     -moz-border-radius: $border-radius;      
+           border-radius:$border-radius;
+}
+
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+     -moz-transform: $transform;
+      -ms-transform: $transform;
+		-o-transform: $transform;
+           transform: $transform;
+}
+
+@mixin shadow($shadow) {
+  -webkit-box-shadow: ($shadow);
+     -moz-box-shadow: ($shadow);
+      -ms-box-shadow: ($shadow);
+		-o-box-shadow: ($shadow);
+           box-shadow: ($shadow);
+}
+
+@mixin placeholder-color($color){
+	&:-moz-placeholder,
+	&::-moz-placeholder{
+		color: $color;
+		opacity: 1;
+	}
+	&::-webkit-input-placeholder{
+		color: $color;
+	}
+}

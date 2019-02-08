@@ -1,0 +1,278 @@
+.main-footer{
+	padding: 47px 93px 20px 126px;
+	font-size: 1px;
+	background-color: #151414;
+
+	&__bloks-list {
+		display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+		-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    -webkit-box-align: top;
+	    -ms-flex-align: top;
+	    align-items: top;
+		-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	    justify-content: space-between;
+	    padding-bottom: 57px;
+
+	    @media (max-width: 425px) {
+	    	padding-bottom: 38px;
+	    }
+	}
+
+
+	&__consumer-rights {
+		display: inline-block;
+		font-size: 8px;
+		color: #999999;
+
+		@media (max-width: 480px) {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	&__confid-polite {
+		margin-right: 102px;
+
+		@media (max-width: 480px) {
+			margin-right: 0;
+			padding-bottom: 7px;
+		}
+	}
+
+	&__rights-reserved {
+		float: right;
+		text-transform: uppercase;
+
+		@media (max-width: 668px) {
+			display: none;
+		}
+	}
+
+	@media (max-width: 1024px) {
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 34px;
+	}
+
+	@media (max-width: 907px) {
+		&__footer-menu {
+			display: block;
+			padding-bottom: 20px;
+			width: 100%;
+			text-align: center;
+		}
+
+		&__social-media {
+			padding-bottom: 35px;
+			width: 100%;
+			text-align: center;
+		}
+
+		&__subscribe-us {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 668px) {
+		&__agreement {
+			float: right;
+		}
+	}
+
+	@media (max-width: 425px) {
+		&__footer-menu {
+			padding-bottom: 6px;
+		}
+
+		&__social-media {
+			padding-bottom: 30px;
+		}
+	}
+
+	@media (max-width: 425px) {
+		padding-bottom: 70px;
+	}
+
+	@media (max-width: 407px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.footer-menu {
+
+	&__list {
+		display: inline-block;
+		margin-right: 109px;
+		max-width: 153px;
+		vertical-align: top;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		@media (max-width: 1193px) {
+			margin-right: 34px;
+		}
+
+		@media (max-width: 907px) {
+			margin-right: 69px;
+		}
+
+		@media (max-width: 455px) {
+			display: inline;
+			margin-right: 0;
+		}
+	}
+
+	&__item {
+		padding-bottom: 11px;
+		font-size: 10px;
+		font-weight: 500;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+
+		a {
+			color: #FFFFFF;
+		}
+	}
+}
+
+.footer-social {
+
+	&__title {
+		padding-bottom: 14px;
+		font-size: 14px;
+		color: #999999;
+		font-weight: 400;
+	}
+
+	&__item {
+		display: inline-block;
+		margin-right: 28px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__item-pic {
+		position: relative;
+		display: block;
+		width: 31px;
+		height: 31px;
+		background-color: #FFF;
+		border-radius: 50%;		
+		
+		&:after {
+			position: absolute;
+			top: 5px;
+			left: 10px;
+			color: #0F0F0F;
+		}
+
+		&_first {
+
+			&:after {
+				top: 5px;
+				left: 10px;
+				@include icomoon('\e905');
+				font-size: 20px;
+			}
+		}
+
+		&_second {
+
+			&:after {
+				top: 7px;
+    			left: 8px;
+				@include icomoon('\e908');
+    			font-size: 17px;
+			}
+		}
+
+		&_third {
+			&:after {
+				top: 11px;
+			    left: 4px;
+				@include icomoon('\e90e');
+			    font-size: 11px;
+			}
+		}
+
+		&:hover {
+			background-color: #151414;
+			@include transition (none);
+
+			&:after {
+				color: #FFF;
+			}
+		}
+	}
+}
+
+.footer-subscribe {
+	&__title {
+		font-size: 14px;
+		color: #999999;
+		font-weight: 400;
+	}
+
+	&__input-blc {
+		padding-top: 10px;
+	}
+
+	&__input {
+		padding-bottom: 8px;
+		vertical-align: bottom;
+		width: 189px;
+		color: #FFF;
+		border: none;
+		border-bottom: 1px solid #FFF;
+		background-color: transparent;
+		@include placeholder-color (#404040);
+		@include placeholder-letter-spacing (0.15em);
+		@include placeholder-text-transform;
+
+		@media (max-width: 907px) {
+			margin-left: 59px;
+		}
+
+		@media (max-width: 425px) {
+			margin-left: 28px;
+		}
+	}
+
+	&__ready-btn {
+		position: relative;
+		width: 36px;
+		height: 36px;
+		background-color: #B18999;
+		border: none;
+		border-radius: 50%;
+
+		
+	}
+
+	&__ready-btn {
+		display: inline-block;
+		margin-left: 17px;
+		vertical-align: bottom;
+		cursor: pointer;
+
+		&:after {
+			position: absolute;
+			top: 11px;
+			left: 9px;
+			@include icomoon('\e907');
+			font-size: 17px;
+			color: #FFF; 
+		}
+	}
+}

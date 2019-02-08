@@ -1,0 +1,140 @@
+.main-info {
+	padding: 56px 47px 91px 55px;
+	font-weight: 400;
+	font-size: 1px;
+	color: #1B1C1C;
+	background: #F7F7F7;
+
+	&__blc-title {
+		padding-bottom: 43px;
+		font-size: 44px;
+		font-weight: 400;
+
+		@media (max-width: 535px) {
+			line-height: 54px;
+		}
+
+		@media (max-width: 425px) {
+			padding-bottom: 10px;
+		}
+	}
+
+	&__mark {
+		font-weight: bold;
+	}
+
+	&__blc-descr {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	&__why-us-list {
+		display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+		-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+		-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	    justify-content: space-between;
+	    padding-top: 86px;
+
+	    @media (max-width: 425px) {
+	    	padding-top: 24px;
+	    }
+	}
+
+	&__why-us-item {
+		position: relative;
+		max-width: 393px;
+		width: 100%;
+		font-size: 18px;
+		line-height: 25px;
+
+		&:after {
+			position: absolute;
+			top: -46px;
+			left: 0;
+			color: #404040;
+			font-size: 34px;
+
+			@media (max-width: 425px) {
+				top: 50%;
+				left: -5px;
+				margin-top: -15px;
+			}
+		}
+
+		&_first {
+
+			&:after {
+				@include icomoon('\e900');
+			}
+
+			@media (max-width: 1338px) {
+				br {
+					display: none;
+				}
+			}
+		}
+
+		&_second {
+
+			&:after {
+				@include icomoon('\e901');
+			}
+		}
+
+		&_third {
+
+			&:after {
+				@include icomoon('\e902');
+			}
+		}
+
+		@media (max-width: 1338px) {
+			max-width: 296px;
+		}
+
+		@media (max-width: 1100px) {
+		    padding-bottom: 62px;
+			max-width: 100%;
+			
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+
+		@media (max-width: 425px) {
+			padding-left: 53px;
+			padding-bottom: 0;
+			margin-bottom: 11px;
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 1024px) {
+		padding-left: 17px;
+		padding-right: 17px;
+	}
+
+	@media (max-width: 769px) {
+		padding-bottom: 56px;
+	}
+
+	@media (max-width: 530px) {
+		padding-bottom: 56px;
+	}
+
+	@media (max-width: 425px) {
+		padding-left: 23px;
+		padding-right: 23px;
+		padding-top: 27px;
+		padding-bottom: 0;
+		background: #FFF;
+	}
+}

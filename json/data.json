@@ -1,0 +1,62 @@
+{
+  "windowsModern": [
+    "img/kitchen/kitchen_modern.jpg",
+    "img/kitchen/kitchen_modern.jpg",
+    "img/kitchen/kitchen_modern.jpg",
+    "img/kitchen/kitchen_modern.jpg"
+  ],
+  "windowsLoft": [
+    "img/kitchen/kitchen_loft.jpg",
+    "img/kitchen/kitchen_loft.jpg",
+    "img/kitchen/kitchen_loft.jpg"
+  ],
+  "windowsMorocco": [
+    "img/kitchen/kitchen_morocco.jpg",
+    "img/kitchen/kitchen_morocco.jpg"
+  ],
+ "bedCountry": [
+    "img/bedroom/bedroom_country.jpg",
+    "img/bedroom/bedroom_country.jpg"
+  ],
+  "bedLoft": [
+    "img/bedroom/bedroom_loft.jpg",
+    "img/bedroom/bedroom_loft.jpg"
+  ],
+  "bedEco": [
+    "img/bedroom/bedroom_eco.jpg",
+    "img/bedroom/bedroom_eco.jpg"
+  ],
+  "sofaAvantgarde": [
+    "img/livingroom/livingroom_avantgarde.jpg",
+    "img/livingroom/livingroom_avantgarde.jpg"
+  ],
+  "sofaBaroque": [
+    "img/livingroom/livingroom_baroque.jpg",
+    "img/livingroom/livingroom_baroque.jpg"
+  ],
+  "sofaHighTech": [
+    "img/livingroom/livingroom_hightech.jpg",
+    "img/livingroom/livingroom_hightech.jpg"
+  ], 
+  "sofaMinimalism": [
+    "img/livingroom/livingroom_minimalism.jpg",
+    "img/livingroom/livingroom_minimalism.jpg"
+  ],
+  "sofaModern": [
+    "img/livingroom/livingroom_modern.png",
+    "img/livingroom/livingroom_modern.png"
+  ],
+  "bathHighTech": [
+    "img/bathroom/bathroom_hightech.jpg",
+    "img/bathroom/bathroom_hightech.jpg"
+  ], 
+  "bathMinimalism": [
+    "img/bathroom/bathroom_minimalism.jpg",
+    "img/bathroom/bathroom_minimalism.jpg"
+  ],
+  "bathVintage": [
+    "img/bathroom/bathroom_vintage.jpg",
+    "img/bathroom/bathroom_vintage.jpg",
+    "img/bathroom/bathroom_vintage.jpg"
+  ]
+}
