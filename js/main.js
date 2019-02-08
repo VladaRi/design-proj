@@ -69,13 +69,13 @@ function initCurentCategory(thisEl){
 			slider.fadeIn();
 			
 			slider.slick({
-				// autoplay:true,
+				autoplay:12000,
 				dots:true
 			});
 		});
 	} else {
 		slider.slick({
-			// autoplay:true,
+			autoplay:12000,
 			dots:true
 		});
 	}
